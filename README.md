@@ -16,4 +16,5 @@ Yeni bisiklet ekleme sayfası REST iletişimle ilgili json dosyasına yeni bisik
 * KnockoutJS 
 * Highcharts 
 * JSLINQ
+* Angular
   
