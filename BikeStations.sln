@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeStationsMvc", "BikeStationsMvc\BikeStationsMvc.csproj", "{25882877-4178-46B6-B6D9-8174068F4774}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeStationsMvc", "BikeStationsMvc\BikeStationsMvc.csproj", "{25882877-4178-46B6-B6D9-8174068F4774}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeStationsApi", "BikeStationsApi\BikeStationsApi.csproj", "{6023FDDB-F2E3-4041-81EE-1C35BFA2D4EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeStationsApi", "BikeStationsApi\BikeStationsApi.csproj", "{6023FDDB-F2E3-4041-81EE-1C35BFA2D4EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeStation", "BikeStation\BikeStation.csproj", "{921F0B03-B05A-4BC7-9DF2-19A8C398EA46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6023FDDB-F2E3-4041-81EE-1C35BFA2D4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6023FDDB-F2E3-4041-81EE-1C35BFA2D4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6023FDDB-F2E3-4041-81EE-1C35BFA2D4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921F0B03-B05A-4BC7-9DF2-19A8C398EA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921F0B03-B05A-4BC7-9DF2-19A8C398EA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921F0B03-B05A-4BC7-9DF2-19A8C398EA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921F0B03-B05A-4BC7-9DF2-19A8C398EA46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

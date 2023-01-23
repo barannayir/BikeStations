@@ -48,6 +48,7 @@ namespace BikeStationsApi.Controllers
         }
 
         [HttpPost("CreateBike")]
+        [Consumes("application/json")]
         public IActionResult CreateBike([FromBody] Bike bike)
         {
             _bikeRepository.Create(bike);
