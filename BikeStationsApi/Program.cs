@@ -16,6 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IBikeRepository, BikeRepository>();
 builder.Services.AddScoped<IStationRepository, StationRepository>();
 builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection("FilePaths"));
+builder.Services.AddCors();
 builder.Services.AddSingleton<IDatabaseSettings>(sp =>
 {
     return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
@@ -35,7 +36,7 @@ app.UseSwaggerUI(c =>
 });
 app.UseDeveloperExceptionPage();
 app.UseAuthorization();
-
+app.UseCors(options => options.WithOrigins("http://localhost:8100").AllowAnyMethod().AllowAnyHeader());
 app.MapControllers();
 
 app.Run();
